@@ -31,7 +31,7 @@ const Meal = () => {
             <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                  Harum dicta laborum commodi saepe. lorem Ullam.</h3>
          </div>
-         hello baby
+   
          <div className="searchitem">
             <input type="search" className="searchitem"  onChange={e=>setsearch(e.target.value)}
             onKeyPress={searchRecipe}/>
