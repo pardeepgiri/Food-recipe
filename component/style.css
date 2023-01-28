@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;800&family=Roboto:ital,wght@0,500;1,300;1,500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #fabf37;
+    font-family: 'Bona Nova', serif;
+}
+.main{
+    width: 80%;
+    margin: 25px auto;
+    text-align: center;
+}
+.heading h1 {
+    color: #121a03;
+    font-weight: 800;
+}
+.heading h3{
+    color:#121a03 ;
+    margin-top: 15px;
+    font-weight: 600;
+}
+.searchitem{
+    width: 300px;
+    height: 40px;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 5px;
+    margin: 20px auto;
+}
+.container{
+    width: 80%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    grid-gap: 2rem;
+}
+.mealitem{
+    width: 180px;
+    display: grid;
+    background-color: black;
+    border-radius: 0.8rem;
+    padding: 4px;
+}
+.mealitem h3{
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+img{
+    width: 100%;
+    border-radius: 1rem;
+}
+.indexcontainer{
+    width: 80%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(18px,1fr));
+    grid-gap: 2rem;
+    text-align: center;
+   
+}
+.mealindex{
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    display: grid;
+    background-color: black;
+    border-radius: 0.8rem;
+    padding: 4px;
+    color: white;
+}
+
+.content img{
+    width: 90%;
+    margin: 10px 5%;
+    height: 550px;
+}
+.content .inner-content{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #121a03;
+    text-align: center;
+    padding: 1.5rem;
+    box-shadow: 0 5px 5px rgba(0, 0,0, 0.5);
+} 
+.ingradient h2{
+    margin-bottom: 10px;
+}
+
+.inner-gradient{
+    margin: 2rem auto;
+    width: 90%;
+    display: flex;
+}
+
+.ingradient,.instruction{
+    flex-basis: 50%;
+    text-align: justify;
+}
+.ingradient h3{
+    padding-top: 1rem;
+    font-weight: bold;
+}
